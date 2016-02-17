@@ -8,6 +8,13 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <FlyoutBase.AttachedFlyout>
+            <TimePickerFlyout/>
+        </FlyoutBase.AttachedFlyout>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="219,48,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="54,48,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBlock x:Name="eurotTextBlock" HorizontalAlignment="Left" Margin="54,80,0,0" TextWrapping="Wrap" Text="Eurot" VerticalAlignment="Top"/>
+        <TextBlock x:Name="markatTextBlock" HorizontalAlignment="Left" Margin="219,80,0,0" TextWrapping="Wrap" Text="Markat" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>
